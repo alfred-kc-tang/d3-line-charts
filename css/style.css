@@ -1,0 +1,6 @@
+.line {
+	fill: none;
+}
+@media print {
+	.pagebreak { page-break-before: always; }
+}
