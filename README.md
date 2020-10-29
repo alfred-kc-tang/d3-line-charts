@@ -1,19 +1,20 @@
-# [Line Charts](https://alfred-kctang.github.io/d3-line-charts/)
+# [Line Charts using D3](https://alfred-kctang.github.io/d3-line-charts/)
 
-This project demonstrates how a force-directed graph with various features is created using the visualization library, D3.
+This project demonstrates how line charts with various characteristics are created using the visualization library, D3.
 
 ## Table of Contents
 
-* [Features](#features)
+* [Characteristics](#characteristics)
 * [License](#license)
 
-## Features
+## Characteristics
 
-* The styling of edges differs by the value of the edge: if 0, the edge is black, thin and dashed; if 1, the edge is green, thick and solid.
-* The radius of each node is scaled based on the degree of the node. The nodes with the more degree are colored darker red, the nodes with less degree are colored lighter red.
-* Each node can be dragged by the user. When it is dragged by the user, its label moves along with it.
-* Each node can be pinned by the user by double-clicking. Pinned nodes have thicker border than unpinned ones, and they are no longer modified by the graph layout algorithm as they were initially. Pinned nodes can still be dragged around by the user.
-* Each pinned node can be unpinned by the user by double-clicking again.
+* The bottom three line charts are variants of the first line chart, which shows the number of worldwide earthquakes from 2000 to 2015 separated into four magnitude ranges.
+* The sizes of the circles in the second, third and fourth line charts are proportional to estimated deaths from the data.
+* The vertical scale of the third line chart is in square root scale.
+* The vertical scale of the fourth line chart is in log scale.
+
+We may want to use nonlinear scales such as square root and log when: (1) there is a skewness towards large values, where some data points are much larger than the bulk of the data, i.e. the numbers of earthquakes in "5_5.9"; (2) we want to visualize the percent change or multiplicator factors.
 
 ## License
 
