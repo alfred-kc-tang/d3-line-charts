@@ -18,4 +18,4 @@ We may want to use nonlinear scales such as square root and log when: (1) there 
 
 ## License
 
-This repository is covered under the [MIT License](https://github.com/alfred-kctang/d3-force-directed-graph/blob/master/LICENSE).
+This repository is covered under the [MIT License](https://github.com/alfred-kctang/d3-line-charts/blob/master/LICENSE).
